@@ -10,12 +10,12 @@ function increaseRankBy(n){
   let elements = document.querySelectorAll('.ranked-list li');
   
    for(let i= 0 ; i < elements.length; i++){
-     console.log(elements[i].innerHtml);
-     elements[i].innerHtml= (parseInt(elements[i]innerHtml)+n).toString();
+     
+     elements[i].innerHtml= parseInt(elements[i].innerHtml)+n
    }
   
 }
 
 function deepestChild(){
-  let node = document.querySelector();
+  let node = document.querySelector('div#grand-node');
 }

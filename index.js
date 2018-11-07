@@ -1,1 +1,21 @@
+function getFirstSelector(selector){
+  return document.querySelector(selector);
+}
 
+function nestedTarget(){
+  return document.querySelector('#nested .target');
+}
+
+function increaseRankBy(n){
+  let elements = document.querySelectorAll('.ranked-list li');
+  
+   for(let i= 0 ; i < elements.length; i++){
+     console.log(elements[i].innerHtml);
+     elements[i].innerHtml= (parseInt(elements[i]innerHtml)+n).toString();
+   }
+  
+}
+
+function deepestChild(){
+  
+}
